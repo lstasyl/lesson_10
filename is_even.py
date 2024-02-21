@@ -1,11 +1,6 @@
 def is_even(digit):
     """ Перевірка чи є парним число """
-    if digit % 2 == 0:
-        result = True
-    else:
-        result = False
-
-    return result
+    return digit % 2 == 0
 
 
 
